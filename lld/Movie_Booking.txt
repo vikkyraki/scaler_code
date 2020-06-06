@@ -1,0 +1,30 @@
+First thing to do is clarify and resolve the use cases from the activity Diagram.
+
+Use Cases -> Max 15 Mins discuss with interviewer
+ []  Users will be able to see list of cities, and he will be able to select location.
+ [] Search Movies by Lang, Name, Rating, Sort Price, Relevance, Genre, Theatre, Release date, type of movie.
+ [] Each Theatre have multiple halls and each Hall can play a movie at a time.
+ [] User must be able to see the information about the movie, running time and shows.
+ [] One movie can have multiple shows.
+ [] User must be able to see the hall.
+ [] User must be select to select multiple seats
+ [] Make payment, He may apply Coupon Also
+ [] Booking History must be preserved for User.
+ [x] No two users can book a same tkt for same show.
+
+Now we almost have all requirements.
+
+Actors and Use Cases  -> Max 5 Mins
+ Guest User  -> search the movies, register, login
+Customer -> search, book ticket, cancel ticket, apply coupon
+System -> send automated mails, send notification.
+Admin -> cancel/add/edit shows, theatres
+
+Now draw Use Case Diagram...
+
+
+Entities
+Now go through all Use Cases and find Nouns for entities..
+
+After doing that, visualise the  diagram of the system.
+
